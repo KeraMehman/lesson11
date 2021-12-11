@@ -1,0 +1,18 @@
+vscode --> new project -->создаю папки: bin, admin, config, css/.scss
+создаю  файл .gitignore (/admin
+/bin
+/config
+*.scss)
+terminal --> { git init 
+git add .
+git confirm -m 'new project'
+git branch newForum
+git status 
+git checkout newForum }
+в новой ветке создаю папку blog с файлами: index.js, index.html;
+terminal -->{
+    git add .
+    git commit -m 'add new branch'
+    git remote origin
+    git push -u origin newForum
+}
